@@ -8,7 +8,8 @@
     "src/cli.js"
   ],
   "scripts": {
-    "test": "jest --coverage --passWithNoTests"
+    "test": "jest --coverage --passWithNoTests",
+    "test:make-badges": "npm run test && node . "
   },
   "author": "Vinicios Clarindo",
   "license": "MIT",
