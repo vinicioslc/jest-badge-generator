@@ -1,0 +1,34 @@
+{
+  "name": "jest-badge-generator",
+  "version": "1.0.0",
+  "main": "src/cli.js",
+  "description": "Create a group of coverage badges from jest",
+  "bin": "src/cli.js",
+  "files": [
+    "src/cli.js"
+  ],
+  "scripts": {
+    "test": "jest --coverage --passWithNoTests"
+  },
+  "author": "Vinicios Clarindo",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
+  "jest": {
+    "coverageReporters": [
+      "json",
+      "json-summary",
+      "lcov",
+      "text",
+      "text-summary"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.jsx?$"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
