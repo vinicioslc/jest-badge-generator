@@ -22,8 +22,8 @@ const getBadge = (summaryReport, key) => {
   )}${key}-${coverage}${encodeURI("%")}-${colour}.svg`;
 };
 
-const getBadgeByKey = (report, outputPath) => key => {
-  const url = getBadge(report, key);
+const getBadgeByKey = (report, outputPath) => currentKey => {
+  const url = getBadge(report, currentKey);
 
   download(url, (err, res) => {
     if (err) {
@@ -33,7 +33,7 @@ const getBadgeByKey = (report, outputPath) => key => {
       if (folderError) {
         console.error(`Could not create output directory ${folderError}`);
       } else {
-        writeBadgeInFolder(key, res, outputPath);
+        writeBadgeInFolder(currentKey, res, outputPath);
       }
     });
   });

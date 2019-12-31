@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const { readSummaryAndGenerateBadges } = require("./src");
-const { inputPath, outputPath } = require("./constants/paths");
+const { readSummaryAndGenerateBadges } = require("./domain");
+const { inputPath, outputPath, reportKeys } = require("./constants/paths");
 
-readSummaryAndGenerateBadges(inputPath, outputPath);
+readSummaryAndGenerateBadges(inputPath, outputPath, reportKeys);

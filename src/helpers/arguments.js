@@ -1,26 +1,24 @@
 /**
  * Will lookup the argument in the cli arguments list and will return a
  * value passed as CLI arg (if found)
- * Otherwise will return default value passed
- * @param argName - name of hte argument to look for
- * @param defaultOutput - default value to return if could not find argument in cli command
+ * Otherwise will return default value passed if none provide will be null
+ * @param argName - name of hte argument to search
+ * @param defaultValue - default value to return if could not find argument in cli command default is null
  * @private
  */
-const findArgument = (argName, defaultOutput) => {
-  if (!argName) {
-    return defaultOutput;
+const findArgument = (argName, defaultValue) => {
+  let willReturn = null;
+  if (argName) {
+    try {
+      const findedIndex = process.argv.findIndex(a => a.match(argName));
+      if (findedIndex >= 0) {
+        willReturn = process.argv[findedIndex + 1];
+      }
+    } catch (e) {}
+  } else {
+    console.error("Missing argument name or defaultValue", argName);
   }
-
-  const index = process.argv.findIndex(a => a.match(argName));
-  if (index < 0) {
-    return defaultOutput;
-  }
-
-  try {
-    return process.argv[index + 1];
-  } catch (e) {
-    return defaultOutput;
-  }
+  return willReturn || defaultValue || null;
 };
 
 module.exports = { findArgument };
