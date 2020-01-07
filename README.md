@@ -14,18 +14,11 @@ By default all badges are sended to `.badges` the files will be something like..
 `badge-statements.svg` ![coverage-statements]( ./.badges/badge-statements.svg)
 
 
-### Library Tests Summary
-
-![coverage-branches]( ./.badges/badge-branches.svg)
-![coverage-function]( ./.badges/badge-functions.svg)
-![coverage-lines]( ./.badges/badge-lines.svg)
-![coverage-statements]( ./.badges/badge-statements.svg)
-
-
 ## How to
-0. Install this package as development dependency
 
-1. you will need add follwing config to your jest tests
+0. Install this package as development dependency `npm i jest-badge-generator -D`
+
+1. you will need add follwing config to your jest tests section in `package.json` or in your `jest.config.js`
 
 ````json
 ...
@@ -50,3 +43,12 @@ By default all badges are sended to `.badges` the files will be something like..
 ````
 
 2. Run the tests `npm run test:make-badges`
+
+
+
+## Library Tests Summary
+
+![coverage-branches]( ./.badges/badge-branches.svg)
+![coverage-function]( ./.badges/badge-functions.svg)
+![coverage-lines]( ./.badges/badge-lines.svg)
+![coverage-statements]( ./.badges/badge-statements.svg)
