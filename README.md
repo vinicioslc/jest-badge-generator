@@ -23,8 +23,8 @@ By default all badges are sended to `.badges` the files will be something like..
 ````json
 ...
   "scripts": {
-    "test": "jest --coverage --passWithNoTests",
-    "test:make-badges": "npm run test && node . "
+    "test": "jest --coverage",
+    "test:make-badges": "npm run test && jest-badge-generator"
   },
   "jest": {
     "coverageReporters": [
