@@ -5,13 +5,13 @@ This has inteded to be an package that generates jest badges to be used by your 
 
 By default all badges are sended to `.badges` the files will be something like.. 
 
-`badge-branches.svg` ![coverage-branches]( ./.badges/badge-branches.svg)
+`badge-branches.svg` ![coverage-branches](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-branches.svg?sanitize=true)
 
-`badge-functions.svg` ![coverage-function]( ./.badges/badge-functions.svg)
+`badge-functions.svg` ![coverage-function](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-functions.svg?sanitize=true)
 
-`badge-lines.svg` ![coverage-lines]( ./.badges/badge-lines.svg)
+`badge-lines.svg` ![coverage-lines](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-lines.svg?sanitize=true)
 
-`badge-statements.svg` ![coverage-statements]( ./.badges/badge-statements.svg)
+`badge-statements.svg` ![coverage-statements](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-statements.svg?sanitize=true)
 
 
 ## How to
@@ -44,11 +44,9 @@ By default all badges are sended to `.badges` the files will be something like..
 
 2. Run the tests `npm run test:make-badges`
 
+## Library Jest Health Summary
 
-
-## Library Tests Summary
-
-![coverage-branches]( ./.badges/badge-branches.svg)
-![coverage-function]( ./.badges/badge-functions.svg)
-![coverage-lines]( ./.badges/badge-lines.svg)
-![coverage-statements]( ./.badges/badge-statements.svg)
+![coverage-branches](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-branches.svg?sanitize=true)
+![coverage-function](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-functions.svg?sanitize=true)
+![coverage-lines](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-lines.svg?sanitize=true)
+![coverage-statements](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-statements.svg?sanitize=true)
