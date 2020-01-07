@@ -1,6 +1,6 @@
 {
   "name": "jest-badge-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "src/cli.js",
   "description": "Create a group of coverage badges from jest to an output folder",
   "bin": "src/cli.js",
