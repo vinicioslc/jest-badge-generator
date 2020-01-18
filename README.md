@@ -5,6 +5,8 @@ This has inteded to be an package that generates jest badges to be used by your 
 
 By default all badges are sended to `.badges` the files will be something like.. 
 
+> has option for convert to png too...
+
 `badge-branches.svg` ![coverage-branches](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-branches.svg?sanitize=true)
 
 `badge-functions.svg` ![coverage-function](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-functions.svg?sanitize=true)
@@ -24,7 +26,7 @@ By default all badges are sended to `.badges` the files will be something like..
 ...
   "scripts": {
     "test": "jest --coverage",
-    "test:make-badges": "npm run test && jest-badge-generator"
+    "test:make-badges": "npm run test && jest-badge-generator" // you have the options argument to convert for png with `jest-badge-generator --type "png"` this will convert output svg to png
   },
   "jest": {
     "coverageReporters": [
@@ -46,7 +48,7 @@ By default all badges are sended to `.badges` the files will be something like..
 
 ## Library Jest Health Summary
 
-![coverage-branches](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-branches.svg?sanitize=true)
-![coverage-function](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-functions.svg?sanitize=true)
-![coverage-lines](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-lines.svg?sanitize=true)
-![coverage-statements](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-statements.svg?sanitize=true)
+![coverage-branches](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-branches.png?sanitize=true)
+![coverage-function](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-functions.png?sanitize=true)
+![coverage-lines](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-lines.png?sanitize=true)
+![coverage-statements](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-statements.png?sanitize=true)
