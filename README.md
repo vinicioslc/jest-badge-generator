@@ -7,13 +7,13 @@ By default all badges are sended to `.badges` the files will be something like..
 
 > has option for convert to png too...
 
-`badge-branches.svg` ![coverage-branches](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-branches.svg?sanitize=true)
+`badge-branches.svg` ![coverage-branches](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-branches.png?sanitize=true)
 
-`badge-functions.svg` ![coverage-function](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-functions.svg?sanitize=true)
+`badge-functions.svg` ![coverage-function](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-functions.png?sanitize=true)
 
-`badge-lines.svg` ![coverage-lines](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-lines.svg?sanitize=true)
+`badge-lines.svg` ![coverage-lines](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-lines.png?sanitize=true)
 
-`badge-statements.svg` ![coverage-statements](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-statements.svg?sanitize=true)
+`badge-statements.svg` ![coverage-statements](https://github.com/vinicioslc/jest-badge-generator/raw/master/.badges/badge-statements.png?sanitize=true)
 
 
 ## How to
