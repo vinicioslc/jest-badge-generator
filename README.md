@@ -1,6 +1,8 @@
 
 # Jest Badges Generator
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dfdfb0a7e8b84e3f817c73d853ee1675)](https://app.codacy.com/manual/vinicioslc/jest-badge-generator?utm_source=github.com&utm_medium=referral&utm_content=vinicioslc/jest-badge-generator&utm_campaign=Badge_Grade_Dashboard)
+
 This has inteded to be an package that generates jest badges to be used by your README.md or something like.
 
 By default all badges are sended to `.badges` the files will be something like.. 
